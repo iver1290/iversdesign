@@ -764,19 +764,19 @@ url("img/01_Minimalist%20House%20copy.webp") 2x);background-image: image-set(url
 url("img/01_Minimalist%20House%20copy.jpg") 2x,url("img/01_Minimalist%20House%20copy.webp") 1x,
 url("img/01_Minimalist%20House%20copy.webp") 2x);
 }
-.bg-01-College-20of-20Marin-20copy{
-	background-image:url("img/01_College%20of%20Marin%20copy.jpg");
-	background-image: -webkit-image-set(url("img/01_College%20of%20Marin%20copy.webp") 1x,
-url("img/01_College%20of%20Marin%20copy.webp") 2x);background-image: image-set(url("img/01_College%20of%20Marin%20copy.jpg") 1x,
-url("img/01_College%20of%20Marin%20copy.jpg") 2x,url("img/01_College%20of%20Marin%20copy.webp") 1x,
-url("img/01_College%20of%20Marin%20copy.webp") 2x);
-}
 .bg-04-KIWI-20Cabin-20copy{
 	background-image:url("img/04_KIWI%20Cabin%20copy.jpg");
 	background-image: -webkit-image-set(url("img/04_KIWI%20Cabin%20copy.webp") 1x,
 url("img/04_KIWI%20Cabin%20copy.webp") 2x);background-image: image-set(url("img/04_KIWI%20Cabin%20copy.jpg") 1x,
 url("img/04_KIWI%20Cabin%20copy.jpg") 2x,url("img/04_KIWI%20Cabin%20copy.webp") 1x,
 url("img/04_KIWI%20Cabin%20copy.webp") 2x);
+}
+.bg-04-KIWI-20Cabin-20copy-202{
+	background-image:url("img/04_KIWI%20Cabin%20copy%202.jpg");
+	background-image: -webkit-image-set(url("img/04_KIWI%20Cabin%20copy%202.webp") 1x,
+url("img/04_KIWI%20Cabin%20copy%202.webp") 2x);background-image: image-set(url("img/04_KIWI%20Cabin%20copy%202.jpg") 1x,
+url("img/04_KIWI%20Cabin%20copy%202.jpg") 2x,url("img/04_KIWI%20Cabin%20copy%202.webp") 1x,
+url("img/04_KIWI%20Cabin%20copy%202.webp") 2x);
 }
 .bg-IMG-7394-20copy{
 	background-image:url("img/IMG_7394%20copy.jpg");
