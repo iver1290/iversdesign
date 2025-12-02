@@ -671,6 +671,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-15-style{
 	width:200px;
 }
+.img-bloc-8-style{
+	width:300px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -768,12 +771,12 @@ url("img/04_KIWI%20Cabin%20copy.webp") 2x);background-image: image-set(url("img/
 url("img/04_KIWI%20Cabin%20copy.jpg") 2x,url("img/04_KIWI%20Cabin%20copy.webp") 1x,
 url("img/04_KIWI%20Cabin%20copy.webp") 2x);
 }
-.bg-04-Experimental-20Hotel-20copy{
-	background-image:url("img/04_Experimental%20Hotel%20copy.jpg");
-	background-image: -webkit-image-set(url("img/04_Experimental%20Hotel%20copy.webp") 1x,
-url("img/04_Experimental%20Hotel%20copy.webp") 2x);background-image: image-set(url("img/04_Experimental%20Hotel%20copy.jpg") 1x,
-url("img/04_Experimental%20Hotel%20copy.jpg") 2x,url("img/04_Experimental%20Hotel%20copy.webp") 1x,
-url("img/04_Experimental%20Hotel%20copy.webp") 2x);
+.bg-04-KIWI-20Cabin-20copy-202{
+	background-image:url("img/04_KIWI%20Cabin%20copy%202.jpg");
+	background-image: -webkit-image-set(url("img/04_KIWI%20Cabin%20copy%202.webp") 1x,
+url("img/04_KIWI%20Cabin%20copy%202.webp") 2x);background-image: image-set(url("img/04_KIWI%20Cabin%20copy%202.jpg") 1x,
+url("img/04_KIWI%20Cabin%20copy%202.jpg") 2x,url("img/04_KIWI%20Cabin%20copy%202.webp") 1x,
+url("img/04_KIWI%20Cabin%20copy%202.webp") 2x);
 }
 .bg-IMG-7394-20copy{
 	background-image:url("img/IMG_7394%20copy.jpg");
@@ -789,9 +792,6 @@ url("img/01_BSU%20Arena%20copy.webp") 2x);background-image: image-set(url("img/0
 url("img/01_BSU%20Arena%20copy.jpg") 2x,url("img/01_BSU%20Arena%20copy.webp") 1x,
 url("img/01_BSU%20Arena%20copy.webp") 2x);
 }
-
-/* = Custom Bric Data
--------------------------------------------------------------- */
 
 
 
