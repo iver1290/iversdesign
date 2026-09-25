@@ -258,6 +258,12 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -358,9 +364,40 @@ button{
 	outline: none!important;
 }
 
+.btn-wire{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.btn-wire:hover{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
+
+/* = Icons
+-------------------------------------------------------------- */
+.icon-md{
+	font-size:30px!important;
+}
 
 
-
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.blockquote{
+	padding:0 20px;
+	border-left:2px solid;
+}
+.blockquote.text-right{
+	border-left:0;
+	border-right:2px solid;
+}
 
 
 /* = Cards
@@ -401,6 +438,14 @@ button{
 }
 
 
+.carousel-nav-icon{
+	fill: none;
+	stroke: #fff;
+	stroke-width: 2px;
+	fill-rule: evenodd;
+	stroke-linecap:round;
+}
+
 
 /* ScrollToTop button */
 
@@ -426,6 +471,97 @@ button{
 	stroke-width: 2px;
 	fill-rule: evenodd;
 	stroke-linecap:round;
+}
+/* = Lightbox
+-------------------------------------------------------------- */
+
+a[data-lightbox]{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+a[data-lightbox]:hover::before{
+	content:"+";
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+	font-size:32px;
+	line-height: 42px;
+	width:50px;
+	height:50px;
+	margin-left:-25px;
+	border-radius: 50%;
+	background:rgba(0,0,0,.5);
+	color:#FFF;
+	font-weight:100;
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+a[data-lightbox]:hover img{
+	opacity: 0.6;
+	-webkit-animation-fill-mode: none;
+	animation-fill-mode:none;
+}
+.lightbox-caption{
+	padding: 20px;
+	color: #FFF;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	left: 16px;
+	right: 16px;
+	bottom: 0px;
+}
+.close-lightbox:hover,.next-lightbox:hover, .prev-lightbox:hover{
+	background:rgba(0,0,0,.5);
+}
+.next-lightbox, .prev-lightbox,.close-lightbox{
+	position: absolute;
+	padding:6px;
+	background:rgba(0,0,0,.3);
+	line-height:0;
+	transition: background .2s ease-in-out;
+	border-radius:.25rem;
+	border:none;
+	z-index:20;
+}
+.next-lightbox, .prev-lightbox{
+	top:45%;
+}
+.close-lightbox{
+	top:20px;
+	right:20px;
+}
+.next-lightbox{
+	right:25px;
+}
+.prev-lightbox{
+	left:25px;
+}
+.lightbox-prev-icon,.lightbox-next-icon,.lightbox-close-icon{
+	fill:none;
+	stroke: #fff;
+	stroke-width: 3px;
+	fill-rule: evenodd;
+	stroke-linecap:round;
+}
+.lightbox-close-svg{
+	pointer-events:none;
+}
+
+/* Framless */
+.frameless-lb{
+	border-radius: 0;
+	border:none;
+}
+.frameless-lb .modal-body{
+	padding:0;
+}
+.frameless-lb .lightbox-caption{
+	left:0;
+	right:0;
+	bottom:-16px;
 }
 
 /* = Custom Styling
@@ -627,6 +763,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:Helvetica;
 	font-size:12px;
 	width:53.77%;
+	font-weight:300;
 }
 .divider-background-color{
 	background-color:rgba(0,0,0,0.53);
@@ -674,6 +811,170 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-bloc-8-style{
 	width:300px;
 }
+.img-65-style{
+	width:400px;
+	height:240px;
+}
+.img-64-style{
+	width:100px;
+	height:150px;
+}
+.p-bloc-6-style{
+	font-size:12px;
+}
+.p-14-style{
+	font-size:12px;
+}
+.p-15-style{
+	font-size:12px;
+}
+.p-16-style{
+	font-size:12px;
+}
+.p-18-style{
+	font-size:12px;
+}
+.p-19-style{
+	font-size:12px;
+}
+.p-20-style{
+	font-size:12px;
+}
+.p-26-style{
+	font-size:12px;
+}
+.p-25-style{
+	font-size:12px;
+}
+.p-25-bloc-6-style{
+	font-size:12px;
+}
+.p-28-style{
+	font-size:12px;
+}
+.p-33-style{
+	font-size:12px;
+}
+.p-36-style{
+	font-size:12px;
+}
+.p-22-style{
+	font-size:12px;
+}
+.p-23-style{
+	font-size:12px;
+}
+.p-24-style{
+	font-size:12px;
+}
+.p-30-style{
+	font-size:12px;
+}
+.p-31-style{
+	font-size:12px;
+}
+.p-33-bloc-6-style{
+	font-size:12px;
+}
+.p-34-style{
+	font-size:12px;
+}
+.p-36-bloc-6-style{
+	font-size:12px;
+}
+.p-37-style{
+	font-size:12px;
+}
+.p-38-style{
+	font-size:12px;
+}
+.p-39-style{
+	font-size:12px;
+}
+.p-41-style{
+	font-size:12px;
+}
+.p-42-style{
+	font-size:12px;
+}
+.p-43-style{
+	font-size:12px;
+}
+.p-44-style{
+	font-size:12px;
+}
+.p-45-style{
+	font-size:12px;
+}
+.p-47-style{
+	font-size:12px;
+}
+.p-50-style{
+	font-size:12px;
+}
+.p-51-style{
+	font-size:12px;
+}
+.p-55-style{
+	font-size:12px;
+}
+.p-56-style{
+	font-size:12px;
+}
+.p-57-style{
+	font-size:12px;
+}
+.p-58-style{
+	font-size:12px;
+}
+.p-59-style{
+	font-size:12px;
+}
+.p-60-style{
+	font-size:12px;
+}
+.p-61-style{
+	font-size:12px;
+}
+.p-62-style{
+	font-size:12px;
+}
+.p-63-style{
+	font-size:12px;
+}
+.p-64-style{
+	font-size:12px;
+}
+.p-65-style{
+	font-size:12px;
+}
+.p-67-style{
+	font-size:12px;
+}
+.h1-work-portfolio-style{
+	font-family:"Poppins";
+	font-weight:100;
+	font-size:48px;
+}
+.p-47-bloc-6-style{
+	font-size:12px;
+}
+.p-48-style{
+	font-size:12px;
+}
+.navbar-logo{
+	text-transform:none;
+	text-decoration:none;
+	font-size:20px;
+}
+.link-style{
+	font-style:italic;
+}
+.h1-blog-style{
+	font-family:"Lato";
+	font-weight:100;
+	font-size:48px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -698,6 +999,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	--swatch-var-2984:rgba(0,0,0,0.78);
 	
 	--swatch-var-7343:#000000;
+	
+	--swatch-var-92:rgba(255,255,255,1.0);
+	
+	--swatch-var-6163:rgba(255,255,255,1.0);
+	
+	--swatch-var-2668:rgba(255,255,255,1.0);
 	
 }
 
@@ -764,20 +1071,6 @@ url("img/01_Minimalist%20House%20copy.webp") 2x);background-image: image-set(url
 url("img/01_Minimalist%20House%20copy.jpg") 2x,url("img/01_Minimalist%20House%20copy.webp") 1x,
 url("img/01_Minimalist%20House%20copy.webp") 2x);
 }
-.bg-04-KIWI-20Cabin-20copy{
-	background-image:url("img/04_KIWI%20Cabin%20copy.jpg");
-	background-image: -webkit-image-set(url("img/04_KIWI%20Cabin%20copy.webp") 1x,
-url("img/04_KIWI%20Cabin%20copy.webp") 2x);background-image: image-set(url("img/04_KIWI%20Cabin%20copy.jpg") 1x,
-url("img/04_KIWI%20Cabin%20copy.jpg") 2x,url("img/04_KIWI%20Cabin%20copy.webp") 1x,
-url("img/04_KIWI%20Cabin%20copy.webp") 2x);
-}
-.bg-04-KIWI-20Cabin-20copy-202{
-	background-image:url("img/04_KIWI%20Cabin%20copy%202.jpg");
-	background-image: -webkit-image-set(url("img/04_KIWI%20Cabin%20copy%202.webp") 1x,
-url("img/04_KIWI%20Cabin%20copy%202.webp") 2x);background-image: image-set(url("img/04_KIWI%20Cabin%20copy%202.jpg") 1x,
-url("img/04_KIWI%20Cabin%20copy%202.jpg") 2x,url("img/04_KIWI%20Cabin%20copy%202.webp") 1x,
-url("img/04_KIWI%20Cabin%20copy%202.webp") 2x);
-}
 .bg-IMG-7394-20copy{
 	background-image:url("img/IMG_7394%20copy.jpg");
 	background-image: -webkit-image-set(url("img/IMG_7394%20copy.webp") 1x,
@@ -785,12 +1078,33 @@ url("img/IMG_7394%20copy.webp") 2x);background-image: image-set(url("img/IMG_739
 url("img/IMG_7394%20copy.jpg") 2x,url("img/IMG_7394%20copy.webp") 1x,
 url("img/IMG_7394%20copy.webp") 2x);
 }
-.bg-01-BSU-20Arena-20copy{
-	background-image:url("img/01_BSU%20Arena%20copy.jpg");
-	background-image: -webkit-image-set(url("img/01_BSU%20Arena%20copy.webp") 1x,
-url("img/01_BSU%20Arena%20copy.webp") 2x);background-image: image-set(url("img/01_BSU%20Arena%20copy.jpg") 1x,
-url("img/01_BSU%20Arena%20copy.jpg") 2x,url("img/01_BSU%20Arena%20copy.webp") 1x,
-url("img/01_BSU%20Arena%20copy.webp") 2x);
+.bg-07-Moscow-20Silos-20copy-202{
+	background-image:url("img/07_Moscow%20Silos%20copy%202.jpg");
+	background-image: -webkit-image-set(url("img/07_Moscow%20Silos%20copy%202.webp") 1x,
+url("img/07_Moscow%20Silos%20copy%202.webp") 2x);background-image: image-set(url("img/07_Moscow%20Silos%20copy%202.jpg") 1x,
+url("img/07_Moscow%20Silos%20copy%202.jpg") 2x,url("img/07_Moscow%20Silos%20copy%202.webp") 1x,
+url("img/07_Moscow%20Silos%20copy%202.webp") 2x);
+}
+.bg-4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e{
+	background-image:url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.jpg");
+	background-image: -webkit-image-set(url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.webp") 1x,
+url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.webp") 2x);background-image: image-set(url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.jpg") 1x,
+url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.jpg") 2x,url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.webp") 1x,
+url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.webp") 2x);
+}
+.bg-05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2{
+	background-image:url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.jpg");
+	background-image: -webkit-image-set(url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.webp") 1x,
+url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.webp") 2x);background-image: image-set(url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.jpg") 1x,
+url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.jpg") 2x,url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.webp") 1x,
+url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.webp") 2x);
+}
+.bg-f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7{
+	background-image:url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.jpg");
+	background-image: -webkit-image-set(url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.webp") 1x,
+url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.webp") 2x);background-image: image-set(url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.jpg") 1x,
+url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.jpg") 2x,url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.webp") 1x,
+url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.webp") 2x);
 }
 
 
@@ -950,6 +1264,9 @@ url("img/01_BSU%20Arena%20copy.webp") 2x);
 	}
 	.hero-fill-mask{
 		fill:rgba(0,0,0,0.80);
+	}
+	.navbar-logo{
+		font-size:18px;
 	}
 	
 }
