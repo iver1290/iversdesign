@@ -761,7 +761,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-style{
 	font-family:Helvetica;
-	font-size:12px;
+	font-size:1px;
 	width:53.77%;
 	font-weight:300;
 }
@@ -975,6 +975,79 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:100;
 	font-size:48px;
 }
+.h1-products-style{
+	font-family:"Poppins";
+	font-weight:100;
+	font-size:48px;
+}
+.h1-3-style{
+	font-family:"Poppins";
+	font-weight:100;
+	font-size:48px;
+}
+.p-53-style{
+	font-size:12px;
+}
+.p-54-style{
+	font-size:12px;
+}
+.p-55-bloc-6-style{
+	font-size:12px;
+}
+.p-56-bloc-6-style{
+	font-size:12px;
+}
+.p-57-bloc-6-style{
+	font-size:12px;
+}
+.p-58-bloc-6-style{
+	font-size:12px;
+}
+.p-59-bloc-6-style{
+	font-size:12px;
+}
+.p-60-bloc-6-style{
+	font-size:12px;
+}
+.p-62-bloc-6-style{
+	font-size:12px;
+}
+.p-63-bloc-6-style{
+	font-size:12px;
+}
+.p-64-bloc-6-style{
+	font-size:12px;
+}
+.p-65-bloc-6-style{
+	font-size:12px;
+}
+.p-66-style{
+	font-size:12px;
+}
+.p-67-bloc-6-style{
+	font-size:12px;
+}
+.p-68-style{
+	font-size:12px;
+}
+.p-69-style{
+	font-size:12px;
+}
+.p-70-style{
+	font-size:12px;
+}
+.p-71-style{
+	font-size:12px;
+}
+.p-72-style{
+	font-size:12px;
+}
+.p-73-style{
+	font-size:12px;
+}
+.h4-style{
+	font-family:"Old Standard TT";
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1105,6 +1178,13 @@ url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.webp")
 url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.webp") 2x);background-image: image-set(url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.jpg") 1x,
 url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.jpg") 2x,url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.webp") 1x,
 url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.webp") 2x);
+}
+.bg-tumblr-e7c50bb027722147daa27708a2d357dc-b21e25e0-2048{
+	background-image:url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.jpg");
+	background-image: -webkit-image-set(url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.webp") 1x,
+url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.webp") 2x);background-image: image-set(url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.jpg") 1x,
+url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.jpg") 2x,url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.webp") 1x,
+url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.webp") 2x);
 }
 
 
