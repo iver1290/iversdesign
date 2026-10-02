@@ -1047,6 +1047,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h4-style{
 	font-family:"Old Standard TT";
+	font-size:12px;
 }
 .p-21-style{
 	font-size:12px;
@@ -1074,6 +1075,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-82-style{
 	font-size:12px;
+}
+.h3-bloc-6-style{
+	font-size:18px;
 }
 
 /* = Colour
@@ -1192,12 +1196,12 @@ url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.webp")
 url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.jpg") 2x,url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.webp") 1x,
 url("img/4ce000ac1196a0664a032b5dcc91d43589eb25c4b403595cf69165e92646f46e.webp") 2x);
 }
-.bg-05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2{
-	background-image:url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.jpg");
-	background-image: -webkit-image-set(url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.webp") 1x,
-url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.webp") 2x);background-image: image-set(url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.jpg") 1x,
-url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.jpg") 2x,url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.webp") 1x,
-url("img/05d2bade0786981789062af6e870d9518da70b38602e8c4b0ce30f1ceed508e2.webp") 2x);
+.bg-180c921a27e7482fc4837e675fd6ad8f7d5034182c674677c6576220333111a2{
+	background-image:url("img/180c921a27e7482fc4837e675fd6ad8f7d5034182c674677c6576220333111a2.jpg");
+	background-image: -webkit-image-set(url("img/180c921a27e7482fc4837e675fd6ad8f7d5034182c674677c6576220333111a2.webp") 1x,
+url("img/180c921a27e7482fc4837e675fd6ad8f7d5034182c674677c6576220333111a2.webp") 2x);background-image: image-set(url("img/180c921a27e7482fc4837e675fd6ad8f7d5034182c674677c6576220333111a2.jpg") 1x,
+url("img/180c921a27e7482fc4837e675fd6ad8f7d5034182c674677c6576220333111a2.jpg") 2x,url("img/180c921a27e7482fc4837e675fd6ad8f7d5034182c674677c6576220333111a2.webp") 1x,
+url("img/180c921a27e7482fc4837e675fd6ad8f7d5034182c674677c6576220333111a2.webp") 2x);
 }
 .bg-f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7{
 	background-image:url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.jpg");
