@@ -1079,6 +1079,30 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h3-bloc-6-style{
 	font-size:18px;
 }
+.p-80-bloc-6-style{
+	font-size:12px;
+}
+.p-6184-style{
+	font-size:12px;
+}
+.p-25158-style{
+	font-size:12px;
+}
+.p-81-bloc-6-style{
+	font-size:12px;
+}
+.p-82-bloc-6-style{
+	font-size:12px;
+}
+.p-84-style{
+	font-size:12px;
+}
+.p-15764-style{
+	font-size:12px;
+}
+.p-87-style{
+	font-size:12px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1216,6 +1240,9 @@ url("img/f3a47461730ff1b2e2689f3df941c1d0d2022ae03daac63516a64dca3f2705a7.webp")
 url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.webp") 2x);background-image: image-set(url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.jpg") 1x,
 url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.jpg") 2x,url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.webp") 1x,
 url("img/tumblr_e7c50bb027722147daa27708a2d357dc_b21e25e0_2048.webp") 2x);
+}
+.bg-02-ARCTIC-20HOTEL{
+	background-image:url("img/02_ARCTIC%20HOTEL.webp");
 }
 
 
